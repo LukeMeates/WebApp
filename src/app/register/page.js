@@ -73,7 +73,7 @@ export default function Page() {
 
 
 
-    runDBCallAsync(`http://localhost:3000/api/login?email=${email}&pass=${pass}&firstName=${firstName}&surname=${surname}&dob=${dob}`)
+    runDBCallAsync(`api/login?email=${email}&pass=${pass}&firstName=${firstName}&surname=${surname}&dob=${dob}`)
 
 
 
@@ -177,7 +177,7 @@ export default function Page() {
 
           <Grid container>
             <Grid item xs>
-              <Link href="http://localhost:3000" variant="body2">
+              <Link href="" variant="body2">
                 Already have an account? Sign in here...
               </Link>
             </Grid>
